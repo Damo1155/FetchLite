@@ -1,3 +1,4 @@
-export const initialise = (): void => {
-    console.log("TEST");
-}
+import "MethodTypes/Get";
+import "MethodTypes/Put";
+import "MethodTypes/Post";
+import "MethodTypes/Delete";

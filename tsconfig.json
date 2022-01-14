@@ -1,7 +1,7 @@
 {
   "compileOnSave": false,
   "include": [
-    "src/**.ts"
+    "src/**/**.ts"
   ],
   "exclude": [
     "node_modules"
@@ -17,6 +17,10 @@
     "emitDeclarationOnly": true,
     "allowUnreachableCode": false,
     "allowSyntheticDefaultImports": true,
-    "baseUrl": "."
+    "baseUrl": ".",
+    "paths": {
+      "Services/*": [ "src/Services/*" ],
+      "MethodTypes/*": [ "src/MethodTypes/*" ]
+    }
   }
 }

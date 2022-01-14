@@ -12,9 +12,7 @@
     "type": "git",
     "url": "https://github.com/Damo1155/FetchLite"
   },
-  "keywords": [
-    
-  ],
+  "keywords": [],
   "author": {
     "name": "Damian Connolly",
     "url": "https://github.com/Damo1155"
@@ -37,5 +35,8 @@
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2",
     "webpack-merge": "^5.8.0"
+  },
+  "dependencies": {
+    "query-string": "^7.1.0"
   }
 }
