@@ -1,0 +1,41 @@
+{
+  "name": "fetchlite",
+  "version": "1.0.0",
+  "description": "FetchLite is a lightweight wrapper for making serverside HTTP calls using the 'Fetch' API.",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open",
+    "webpack": "webpack --config=Build/Webpack/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Damo1155/FetchLite"
+  },
+  "keywords": [
+    
+  ],
+  "author": {
+    "name": "Damian Connolly",
+    "url": "https://github.com/Damo1155"
+  },
+  "bugs": {
+    "url": "https://github.com/Damo1155/FetchLite/issues"
+  },
+  "homepage": "https://github.com/Damo1155/FetchLite#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-rename": "^2.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-merge": "^5.8.0"
+  }
+}
